@@ -1,0 +1,30 @@
+import winsound
+import keyboard
+
+while True:
+    if keyboard.is_pressed('q'):
+        winsound.Beep(int(261.63), 300)
+    elif keyboard.is_pressed('w'):
+        winsound.Beep(int(293.66), 300)
+    elif keyboard.is_pressed('e'):
+        winsound.Beep(int(329.63), 300)
+    elif keyboard.is_pressed('r'):
+        winsound.Beep(int(349.23), 300)
+    elif keyboard.is_pressed('t'):
+        winsound.Beep(int(392), 300)
+    elif keyboard.is_pressed('y'):
+        winsound.Beep(int(440), 300)
+    elif keyboard.is_pressed('u'):
+        winsound.Beep(int(493.88), 100)
+    elif keyboard.is_pressed('i'):
+        winsound.Beep(int(523.25), 500)
+    elif keyboard.is_pressed('o'):
+        winsound.Beep(int(587.33), 300)
+    elif keyboard.is_pressed('p'):
+        winsound.Beep(int(659.26), 300)
+    elif keyboard.is_pressed('['):
+        winsound.Beep(int(698.46), 300)
+    elif keyboard.is_pressed(']'):
+        winsound.Beep(int(783.99), 300)
+    elif keyboard.is_pressed("\\"):
+        winsound.Beep(int(880), 300)
